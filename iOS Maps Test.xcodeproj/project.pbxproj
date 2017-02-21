@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F32565E488E4FC0103F5549 /* libPods-iOS Maps TestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3936A0D6B2DFA55E99963778 /* libPods-iOS Maps TestUITests.a */; };
 		421078431E5BE56D005B7454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 421078421E5BE56D005B7454 /* main.m */; };
 		421078461E5BE56D005B7454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 421078451E5BE56D005B7454 /* AppDelegate.m */; };
 		421078491E5BE56D005B7454 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 421078481E5BE56D005B7454 /* FirstViewController.m */; };
@@ -16,6 +17,12 @@
 		421078541E5BE572005B7454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421078521E5BE572005B7454 /* LaunchScreen.storyboard */; };
 		4210785F1E5BE573005B7454 /* iOS_Maps_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4210785E1E5BE573005B7454 /* iOS_Maps_TestTests.m */; };
 		4210786A1E5BE573005B7454 /* iOS_Maps_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 421078691E5BE573005B7454 /* iOS_Maps_TestUITests.m */; };
+		421078791E5BE61D005B7454 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421078781E5BE61C005B7454 /* MapKit.framework */; };
+		4210787B1E5BE717005B7454 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4210787A1E5BE716005B7454 /* locations.json */; };
+		421078821E5C0F63005B7454 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 421078801E5C0F63005B7454 /* DetailViewController.m */; };
+		421078831E5C0F63005B7454 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421078811E5C0F63005B7454 /* DetailViewController.xib */; };
+		C4B4476F4F0AAF0BEFF46CFC /* libPods-iOS Maps Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8570C973F59216A5CA12B0D7 /* libPods-iOS Maps Test.a */; };
+		F4C83D8D8B9F1C28FD27B09D /* libPods-iOS Maps TestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B433C798E5CAF24B6E9B802 /* libPods-iOS Maps TestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025BBC39C662829DAEF7571D /* Pods-iOS Maps TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Maps TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Maps TestTests/Pods-iOS Maps TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		0CB8C9F50B90BA1821383BE8 /* Pods-iOS Maps TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Maps TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Maps TestUITests/Pods-iOS Maps TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23C26A742F2FD8957F9DB85F /* Pods-iOS Maps TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Maps TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Maps TestUITests/Pods-iOS Maps TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3936A0D6B2DFA55E99963778 /* libPods-iOS Maps TestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps TestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4210783E1E5BE56D005B7454 /* iOS Maps Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Maps Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		421078421E5BE56D005B7454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		421078441E5BE56D005B7454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +65,16 @@
 		421078651E5BE573005B7454 /* iOS Maps TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Maps TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		421078691E5BE573005B7454 /* iOS_Maps_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Maps_TestUITests.m; sourceTree = "<group>"; };
 		4210786B1E5BE573005B7454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421078781E5BE61C005B7454 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4210787A1E5BE716005B7454 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		4210787F1E5C0F63005B7454 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		421078801E5C0F63005B7454 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		421078811E5C0F63005B7454 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		5AE00EEC906E480205110E0F /* Pods-iOS Maps Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Maps Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Maps Test/Pods-iOS Maps Test.release.xcconfig"; sourceTree = "<group>"; };
+		68AD4351031924B7D12F5236 /* Pods-iOS Maps TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Maps TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Maps TestTests/Pods-iOS Maps TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D22BD80C68ED13325E9DFCA /* Pods-iOS Maps Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Maps Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Maps Test/Pods-iOS Maps Test.debug.xcconfig"; sourceTree = "<group>"; };
+		8570C973F59216A5CA12B0D7 /* libPods-iOS Maps Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B433C798E5CAF24B6E9B802 /* libPods-iOS Maps TestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps TestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421078791E5BE61D005B7454 /* MapKit.framework in Frameworks */,
+				C4B4476F4F0AAF0BEFF46CFC /* libPods-iOS Maps Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C83D8D8B9F1C28FD27B09D /* libPods-iOS Maps TestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F32565E488E4FC0103F5549 /* libPods-iOS Maps TestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +113,8 @@
 				4210785D1E5BE573005B7454 /* iOS Maps TestTests */,
 				421078681E5BE573005B7454 /* iOS Maps TestUITests */,
 				4210783F1E5BE56D005B7454 /* Products */,
+				421078771E5BE61C005B7454 /* Frameworks */,
+				6C2660046D912D21AFA499CD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,7 +141,11 @@
 				421078501E5BE572005B7454 /* Assets.xcassets */,
 				421078521E5BE572005B7454 /* LaunchScreen.storyboard */,
 				421078551E5BE572005B7454 /* Info.plist */,
+				4210787A1E5BE716005B7454 /* locations.json */,
 				421078411E5BE56D005B7454 /* Supporting Files */,
+				4210787F1E5C0F63005B7454 /* DetailViewController.h */,
+				421078801E5C0F63005B7454 /* DetailViewController.m */,
+				421078811E5C0F63005B7454 /* DetailViewController.xib */,
 			);
 			path = "iOS Maps Test";
 			sourceTree = "<group>";
@@ -145,6 +176,30 @@
 			path = "iOS Maps TestUITests";
 			sourceTree = "<group>";
 		};
+		421078771E5BE61C005B7454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				421078781E5BE61C005B7454 /* MapKit.framework */,
+				8570C973F59216A5CA12B0D7 /* libPods-iOS Maps Test.a */,
+				8B433C798E5CAF24B6E9B802 /* libPods-iOS Maps TestTests.a */,
+				3936A0D6B2DFA55E99963778 /* libPods-iOS Maps TestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C2660046D912D21AFA499CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D22BD80C68ED13325E9DFCA /* Pods-iOS Maps Test.debug.xcconfig */,
+				5AE00EEC906E480205110E0F /* Pods-iOS Maps Test.release.xcconfig */,
+				68AD4351031924B7D12F5236 /* Pods-iOS Maps TestTests.debug.xcconfig */,
+				025BBC39C662829DAEF7571D /* Pods-iOS Maps TestTests.release.xcconfig */,
+				23C26A742F2FD8957F9DB85F /* Pods-iOS Maps TestUITests.debug.xcconfig */,
+				0CB8C9F50B90BA1821383BE8 /* Pods-iOS Maps TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4210786E1E5BE573005B7454 /* Build configuration list for PBXNativeTarget "iOS Maps Test" */;
 			buildPhases = (
+				2ECE55BCF749CCF2BA490193 /* [CP] Check Pods Manifest.lock */,
 				4210783A1E5BE56C005B7454 /* Sources */,
 				4210783B1E5BE56C005B7454 /* Frameworks */,
 				4210783C1E5BE56C005B7454 /* Resources */,
+				E2F8BF992440B80F169BBE08 /* [CP] Embed Pods Frameworks */,
+				52D75B7C4F119A7E1CD61DB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 421078711E5BE573005B7454 /* Build configuration list for PBXNativeTarget "iOS Maps TestTests" */;
 			buildPhases = (
+				720227A7A9A7536779BC1AEC /* [CP] Check Pods Manifest.lock */,
 				421078561E5BE573005B7454 /* Sources */,
 				421078571E5BE573005B7454 /* Frameworks */,
 				421078581E5BE573005B7454 /* Resources */,
+				E76DDB4A999213245387A975 /* [CP] Embed Pods Frameworks */,
+				33904288B550BAC9AD06FD8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 421078741E5BE573005B7454 /* Build configuration list for PBXNativeTarget "iOS Maps TestUITests" */;
 			buildPhases = (
+				F886D8AE3E1FF6DCF8420C17 /* [CP] Check Pods Manifest.lock */,
 				421078611E5BE573005B7454 /* Sources */,
 				421078621E5BE573005B7454 /* Frameworks */,
 				421078631E5BE573005B7454 /* Resources */,
+				E0D20B1C16B6D7D987FDBA02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +319,8 @@
 			files = (
 				421078541E5BE572005B7454 /* LaunchScreen.storyboard in Resources */,
 				421078511E5BE572005B7454 /* Assets.xcassets in Resources */,
+				421078831E5C0F63005B7454 /* DetailViewController.xib in Resources */,
+				4210787B1E5BE717005B7454 /* locations.json in Resources */,
 				4210784F1E5BE570005B7454 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +341,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ECE55BCF749CCF2BA490193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33904288B550BAC9AD06FD8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Maps TestTests/Pods-iOS Maps TestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D75B7C4F119A7E1CD61DB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Maps Test/Pods-iOS Maps Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		720227A7A9A7536779BC1AEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D20B1C16B6D7D987FDBA02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Maps TestUITests/Pods-iOS Maps TestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F8BF992440B80F169BBE08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Maps Test/Pods-iOS Maps Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E76DDB4A999213245387A975 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Maps TestTests/Pods-iOS Maps TestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F886D8AE3E1FF6DCF8420C17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4210783A1E5BE56C005B7454 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -285,6 +473,7 @@
 				421078461E5BE56D005B7454 /* AppDelegate.m in Sources */,
 				421078491E5BE56D005B7454 /* FirstViewController.m in Sources */,
 				421078431E5BE56D005B7454 /* main.m in Sources */,
+				421078821E5C0F63005B7454 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,10 +618,12 @@
 		};
 		4210786F1E5BE573005B7454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D22BD80C68ED13325E9DFCA /* Pods-iOS Maps Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
 				INFOPLIST_FILE = "iOS Maps Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kumaran.iOS-Maps-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +632,12 @@
 		};
 		421078701E5BE573005B7454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE00EEC906E480205110E0F /* Pods-iOS Maps Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
 				INFOPLIST_FILE = "iOS Maps Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kumaran.iOS-Maps-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,6 +646,7 @@
 		};
 		421078721E5BE573005B7454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68AD4351031924B7D12F5236 /* Pods-iOS Maps TestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
@@ -466,6 +660,7 @@
 		};
 		421078731E5BE573005B7454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025BBC39C662829DAEF7571D /* Pods-iOS Maps TestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
@@ -479,6 +674,7 @@
 		};
 		421078751E5BE573005B7454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C26A742F2FD8957F9DB85F /* Pods-iOS Maps TestUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
 				INFOPLIST_FILE = "iOS Maps TestUITests/Info.plist";
@@ -491,6 +687,7 @@
 		};
 		421078761E5BE573005B7454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB8C9F50B90BA1821383BE8 /* Pods-iOS Maps TestUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
 				INFOPLIST_FILE = "iOS Maps TestUITests/Info.plist";
@@ -520,6 +717,7 @@
 				421078701E5BE573005B7454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		421078711E5BE573005B7454 /* Build configuration list for PBXNativeTarget "iOS Maps TestTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +726,7 @@
 				421078731E5BE573005B7454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		421078741E5BE573005B7454 /* Build configuration list for PBXNativeTarget "iOS Maps TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +735,7 @@
 				421078761E5BE573005B7454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

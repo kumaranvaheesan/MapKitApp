@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <CoreLocation/CoreLocation.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+   
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    UIViewController *vc =[storyboard instantiateInitialViewController];
+    UINavigationController *navControl = [[UINavigationController alloc] initWithRootViewController: vc];
+    self.window.rootViewController = navControl;
+
     return YES;
 }
 
