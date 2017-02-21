@@ -7,115 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B04C009E3E0E448A09B685FA754A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		082CD60C6E2231F67D4FC8D58A9AAF38 /* Pods-iOS Maps TestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05392B2C408AF736C208E7613270443C /* Pods-iOS Maps TestTests-dummy.m */; };
-		17558F84F4FA146EE3E47B5BD450ECF7 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EADD9BCA33A9BFD97475DD6CFB06BB46 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1769714E49C7249C817CCBFE6E21AAA7 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = B93AA6ABA5080D9A9C82062662D07224 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BAD14E84A2CC07C311149AD03C68047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		1CC0376DB89270D5041806053DEE22C1 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6544340A991ED4E42B2BB98605F124 /* JSONModelClassProperty.m */; };
-		3D04B978FE170B01B86EB16CA5A476CA /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF00A6FCE8DB90D8033C342CC0EF6 /* JSONAPI.m */; };
-		4C4C7C48327D2064FB0E8497A8327DF3 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = C9515A046AFAC6B1F10B1A43B83BEA7E /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C9E7E9C1AAF7905500CBEC0716FBC4A /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C78AD07A1A95478FAF6AEF82C15369E0 /* JSONHTTPClient.m */; };
 		556350610F625DF9CA023BF3561C5EE4 /* Pods-iOS Maps TestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BAF98E03BBEE03B87828F72A0F051 /* Pods-iOS Maps TestUITests-dummy.m */; };
-		58BBD2F2D9CF6252A6F4BE5308425C16 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BCCBB80E8097D3CD168B046FC169599 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		631F65483709A507C9987ED592D82E3B /* Pods-iOS Maps Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B82AE639DD7CFC404988EA1D402EB /* Pods-iOS Maps Test-dummy.m */; };
-		6D91206A99344A90F813C17D8FE3C8C2 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = F83819C633E9A848B5133EE7ECFA9131 /* JSONModelError.m */; };
-		767B42A0CBE714521951B3FCF0D1DA30 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0DB6E2AFEFBC62DA04224E802319B2 /* JSONModel+networking.m */; };
-		76CBC4DBC10BC323A35E4C7454D8A279 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E60042B4DBC7191217F26C3D3A2509D1 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87142381CD52640E3C15FC7F0443B895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A7A9798EBDC15116AB441683593404E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A9176D26FE282983AA616CDF3BE0442B /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2037A1261A0C1B90D8359533DB650401 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD426FA9D7C28ECCB827C2A4F38C3D8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B0C2AED164C0F7722A5CC4995B57F199 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 218EAAE054483C56CA608FD5BC6ED747 /* JSONValueTransformer.m */; };
-		B7E4A427F219BBE56BB6B23B039522FF /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F569C295F1F60F14E58856377D30C710 /* JSONModel-dummy.m */; };
-		C066BD05C135A9A641B712D92E4AD146 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 641585DE4DB8BF834C3D6BA5AA1245D5 /* JSONKeyMapper.m */; };
-		DB8999CAE436BCEEBB613E466F313DB4 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA8C7B63C053A16D234F418AF1C4CD /* JSONModel.m */; };
-		DF352FE063E8E7E6B0EA922718F95256 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9493CA809C5F60B0B1FF64DD97070AF6 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFF437C031F6FF0C5294F70F41A0EF29 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A2D976B1126AA713DCC4952DA2510D /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E770949D6B2B219FC776359408B9063B /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EC04C1106B58177E355DD8EA5A740A63 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF70173DE4BDF6DA2E1FD187C32CE2B1 /* Pods-iOS Maps Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B82AE639DD7CFC404988EA1D402EB /* Pods-iOS Maps Test-dummy.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8406D12D27437E4CEF4969A17054A9E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E89EA0620E22EDB775A7C107518644DD;
-			remoteInfo = JSONModel;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00EFF8E1B17838ACC3D58545116C1097 /* Pods-iOS Maps Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Maps Test.release.xcconfig"; sourceTree = "<group>"; };
 		05392B2C408AF736C208E7613270443C /* Pods-iOS Maps TestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS Maps TestTests-dummy.m"; sourceTree = "<group>"; };
-		0C6381EE7275CEE3F7C289EA7B142C20 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		129A79EBCA160D17C96361F43AA424A4 /* Pods-iOS Maps TestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Maps TestUITests-frameworks.sh"; sourceTree = "<group>"; };
-		2037A1261A0C1B90D8359533DB650401 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
-		218EAAE054483C56CA608FD5BC6ED747 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
-		23CC788B90EB0E1DED096E0E2A4C5145 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
 		2FF2EE6BB9970DA48AFC7F06BFAB9A7F /* Pods-iOS Maps Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Maps Test-frameworks.sh"; sourceTree = "<group>"; };
 		336F96AA658C91ED74F306415BE89873 /* Pods-iOS Maps TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Maps TestTests.release.xcconfig"; sourceTree = "<group>"; };
-		4AB35DAC9553535E584BC4606A557AB2 /* libPods-iOS Maps Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AEC48F98CF36F764A2A59E27F25EDA /* Pods-iOS Maps TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Maps TestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5986AFF0B6FFCDA0E6C3E054C06A9FEB /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
 		60311FEE95C79AF9AE6D9CEC15F87EF0 /* Pods-iOS Maps TestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS Maps TestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		641585DE4DB8BF834C3D6BA5AA1245D5 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
 		6715342B92FEC6B763F1810EA4B32494 /* Pods-iOS Maps Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS Maps Test-acknowledgements.plist"; sourceTree = "<group>"; };
 		6977511C370B40185668614CA3367B2B /* Pods-iOS Maps Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS Maps Test-acknowledgements.markdown"; sourceTree = "<group>"; };
 		71ECB6EE8FF03ED781DF80A94DB9F2BE /* Pods-iOS Maps TestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS Maps TestTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7A6544340A991ED4E42B2BB98605F124 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
-		7BCCBB80E8097D3CD168B046FC169599 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		7381E332ABB76E0FFE63A30261D0F8AC /* libPods-iOS Maps TestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps TestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E0C646D6F62E9CD596817F0F8069D2 /* libPods-iOS Maps TestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps TestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D9C494E8651E9A094D04113DC67A47 /* Pods-iOS Maps TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Maps TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8FEAE01640CA5FF19EB717B203CD2FC0 /* libPods-iOS Maps TestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps TestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9493CA809C5F60B0B1FF64DD97070AF6 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		9B5BAF98E03BBEE03B87828F72A0F051 /* Pods-iOS Maps TestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS Maps TestUITests-dummy.m"; sourceTree = "<group>"; };
 		A33E8234B8B4F06EDAA7BBC68B3BB3D4 /* Pods-iOS Maps TestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Maps TestTests-frameworks.sh"; sourceTree = "<group>"; };
-		A5AA8C7B63C053A16D234F418AF1C4CD /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
-		A7A2D976B1126AA713DCC4952DA2510D /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
 		AEAA7573192A824B9706A08FD6E8BD8E /* Pods-iOS Maps Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Maps Test.debug.xcconfig"; sourceTree = "<group>"; };
-		B93AA6ABA5080D9A9C82062662D07224 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
 		BAAA2655C48A1C16067F07C0DE4DD619 /* Pods-iOS Maps TestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS Maps TestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C31B82AE639DD7CFC404988EA1D402EB /* Pods-iOS Maps Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS Maps Test-dummy.m"; sourceTree = "<group>"; };
-		C78AD07A1A95478FAF6AEF82C15369E0 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
-		C9515A046AFAC6B1F10B1A43B83BEA7E /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
-		CA0DB6E2AFEFBC62DA04224E802319B2 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFEF825660154C48352F0E2725E9CB1D /* Pods-iOS Maps TestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS Maps TestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5C790AD58617D6BF2950665612DB3A1 /* Pods-iOS Maps TestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Maps TestTests-resources.sh"; sourceTree = "<group>"; };
+		E1E67ABA3A9FD54CDC8E1CB70978B6C1 /* libPods-iOS Maps Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DBCA1CE59D3140A7C4B6745AD6910A /* Pods-iOS Maps Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Maps Test-resources.sh"; sourceTree = "<group>"; };
-		E60042B4DBC7191217F26C3D3A2509D1 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
-		EADD9BCA33A9BFD97475DD6CFB06BB46 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
-		EC04C1106B58177E355DD8EA5A740A63 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
-		EDC7E79D4BE2522C049D1F2EAB04C2BD /* libPods-iOS Maps TestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Maps TestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE1EF00A6FCE8DB90D8033C342CC0EF6 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
-		F569C295F1F60F14E58856377D30C710 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
 		F5765CBB82AE212541DB5BBDB0432BC9 /* Pods-iOS Maps TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Maps TestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F61F95227883845BB79E88F8D60B5E27 /* Pods-iOS Maps TestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Maps TestUITests-resources.sh"; sourceTree = "<group>"; };
-		F83819C633E9A848B5133EE7ECFA9131 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A4A11688402D81597C63E0265BCA59E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7A9798EBDC15116AB441683593404E7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		625B4EC54C2F01C948FA3C7D199D3CC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BAD14E84A2CC07C311149AD03C68047 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A8ABC0930D477487DF243FFD605B487E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD426FA9D7C28ECCB827C2A4F38C3D8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA78FCDBF3C6153DEF0E9F4AD001C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B04C009E3E0E448A09B685FA754A4B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,34 +72,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2341A01748692D99C5DB5872DFBABC1F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0C6381EE7275CEE3F7C289EA7B142C20 /* libJSONModel.a */,
-				4AB35DAC9553535E584BC4606A557AB2 /* libPods-iOS Maps Test.a */,
-				EDC7E79D4BE2522C049D1F2EAB04C2BD /* libPods-iOS Maps TestTests.a */,
-				8FEAE01640CA5FF19EB717B203CD2FC0 /* libPods-iOS Maps TestUITests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5843963053AFEE5CBA368F15A3340FC2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5986AFF0B6FFCDA0E6C3E054C06A9FEB /* JSONModel.xcconfig */,
-				F569C295F1F60F14E58856377D30C710 /* JSONModel-dummy.m */,
-				23CC788B90EB0E1DED096E0E2A4C5145 /* JSONModel-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JSONModel";
 			sourceTree = "<group>";
 		};
 		73EABD910C444ACA4FFF3E0F9AFCD8E4 /* Pods-iOS Maps Test */ = {
@@ -180,8 +100,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E90606205BE2F0EAA285C9306DD5B1BD /* Pods */,
-				2341A01748692D99C5DB5872DFBABC1F /* Products */,
+				C2E29315B2DDA4AC182BAE3E477A21CA /* Products */,
 				A5D39EB30FAFA6954FF4642BA6E23B21 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -234,76 +153,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBC1AE628C65A9C466B244746E12CF46 /* JSONModel */ = {
+		C2E29315B2DDA4AC182BAE3E477A21CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B93AA6ABA5080D9A9C82062662D07224 /* JSONAPI.h */,
-				EE1EF00A6FCE8DB90D8033C342CC0EF6 /* JSONAPI.m */,
-				EC04C1106B58177E355DD8EA5A740A63 /* JSONHTTPClient.h */,
-				C78AD07A1A95478FAF6AEF82C15369E0 /* JSONHTTPClient.m */,
-				2037A1261A0C1B90D8359533DB650401 /* JSONKeyMapper.h */,
-				641585DE4DB8BF834C3D6BA5AA1245D5 /* JSONKeyMapper.m */,
-				9493CA809C5F60B0B1FF64DD97070AF6 /* JSONModel.h */,
-				A5AA8C7B63C053A16D234F418AF1C4CD /* JSONModel.m */,
-				7BCCBB80E8097D3CD168B046FC169599 /* JSONModel+networking.h */,
-				CA0DB6E2AFEFBC62DA04224E802319B2 /* JSONModel+networking.m */,
-				E60042B4DBC7191217F26C3D3A2509D1 /* JSONModelClassProperty.h */,
-				7A6544340A991ED4E42B2BB98605F124 /* JSONModelClassProperty.m */,
-				C9515A046AFAC6B1F10B1A43B83BEA7E /* JSONModelError.h */,
-				F83819C633E9A848B5133EE7ECFA9131 /* JSONModelError.m */,
-				A7A2D976B1126AA713DCC4952DA2510D /* JSONModelLib.h */,
-				EADD9BCA33A9BFD97475DD6CFB06BB46 /* JSONValueTransformer.h */,
-				218EAAE054483C56CA608FD5BC6ED747 /* JSONValueTransformer.m */,
-				5843963053AFEE5CBA368F15A3340FC2 /* Support Files */,
+				E1E67ABA3A9FD54CDC8E1CB70978B6C1 /* libPods-iOS Maps Test.a */,
+				7381E332ABB76E0FFE63A30261D0F8AC /* libPods-iOS Maps TestTests.a */,
+				83E0C646D6F62E9CD596817F0F8069D2 /* libPods-iOS Maps TestUITests.a */,
 			);
-			path = JSONModel;
-			sourceTree = "<group>";
-		};
-		E90606205BE2F0EAA285C9306DD5B1BD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DBC1AE628C65A9C466B244746E12CF46 /* JSONModel */,
-			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		1750B7FBB3CB07640B5ACD18AB96A774 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1769714E49C7249C817CCBFE6E21AAA7 /* JSONAPI.h in Headers */,
-				E770949D6B2B219FC776359408B9063B /* JSONHTTPClient.h in Headers */,
-				A9176D26FE282983AA616CDF3BE0442B /* JSONKeyMapper.h in Headers */,
-				58BBD2F2D9CF6252A6F4BE5308425C16 /* JSONModel+networking.h in Headers */,
-				DF352FE063E8E7E6B0EA922718F95256 /* JSONModel.h in Headers */,
-				76CBC4DBC10BC323A35E4C7454D8A279 /* JSONModelClassProperty.h in Headers */,
-				4C4C7C48327D2064FB0E8497A8327DF3 /* JSONModelError.h in Headers */,
-				DFF437C031F6FF0C5294F70F41A0EF29 /* JSONModelLib.h in Headers */,
-				17558F84F4FA146EE3E47B5BD450ECF7 /* JSONValueTransformer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		4AAD87B2621BB749894E48365AAFAF74 /* Pods-iOS Maps Test */ = {
+		201588D0A9BDBFD4051B44D111A95F73 /* Pods-iOS Maps Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0419EE00761BF63105783D7F629CC07 /* Build configuration list for PBXNativeTarget "Pods-iOS Maps Test" */;
+			buildConfigurationList = B8F2A8EF8E26F9E610EDAE409F9BBFAF /* Build configuration list for PBXNativeTarget "Pods-iOS Maps Test" */;
 			buildPhases = (
-				F8F0DB6F2A0024659DD7D12A5A5E7EE0 /* Sources */,
-				5A4A11688402D81597C63E0265BCA59E /* Frameworks */,
+				EC2DC9FAEC1C631D98FBB827A2137A74 /* Sources */,
+				ABA78FCDBF3C6153DEF0E9F4AD001C15 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0EDA472983A3F050DC570F871A0C2D38 /* PBXTargetDependency */,
 			);
 			name = "Pods-iOS Maps Test";
 			productName = "Pods-iOS Maps Test";
-			productReference = 4AB35DAC9553535E584BC4606A557AB2 /* libPods-iOS Maps Test.a */;
+			productReference = E1E67ABA3A9FD54CDC8E1CB70978B6C1 /* libPods-iOS Maps Test.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C82F0FAB60D6011BC7075E7EBB616212 /* Pods-iOS Maps TestTests */ = {
@@ -319,24 +195,7 @@
 			);
 			name = "Pods-iOS Maps TestTests";
 			productName = "Pods-iOS Maps TestTests";
-			productReference = EDC7E79D4BE2522C049D1F2EAB04C2BD /* libPods-iOS Maps TestTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E89EA0620E22EDB775A7C107518644DD /* JSONModel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EBFCF7B69D105B5164B11357C0CF7A2 /* Build configuration list for PBXNativeTarget "JSONModel" */;
-			buildPhases = (
-				4A0F220177D465375EDB0F379278B7DA /* Sources */,
-				625B4EC54C2F01C948FA3C7D199D3CC8 /* Frameworks */,
-				1750B7FBB3CB07640B5ACD18AB96A774 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JSONModel;
-			productName = JSONModel;
-			productReference = 0C6381EE7275CEE3F7C289EA7B142C20 /* libJSONModel.a */;
+			productReference = 7381E332ABB76E0FFE63A30261D0F8AC /* libPods-iOS Maps TestTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		ECF2985B9EA446055E50329393FFAE4E /* Pods-iOS Maps TestUITests */ = {
@@ -352,7 +211,7 @@
 			);
 			name = "Pods-iOS Maps TestUITests";
 			productName = "Pods-iOS Maps TestUITests";
-			productReference = 8FEAE01640CA5FF19EB717B203CD2FC0 /* libPods-iOS Maps TestUITests.a */;
+			productReference = 83E0C646D6F62E9CD596817F0F8069D2 /* libPods-iOS Maps TestUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -372,12 +231,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2341A01748692D99C5DB5872DFBABC1F /* Products */;
+			productRefGroup = C2E29315B2DDA4AC182BAE3E477A21CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E89EA0620E22EDB775A7C107518644DD /* JSONModel */,
-				4AAD87B2621BB749894E48365AAFAF74 /* Pods-iOS Maps Test */,
+				201588D0A9BDBFD4051B44D111A95F73 /* Pods-iOS Maps Test */,
 				C82F0FAB60D6011BC7075E7EBB616212 /* Pods-iOS Maps TestTests */,
 				ECF2985B9EA446055E50329393FFAE4E /* Pods-iOS Maps TestUITests */,
 			);
@@ -385,22 +243,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4A0F220177D465375EDB0F379278B7DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D04B978FE170B01B86EB16CA5A476CA /* JSONAPI.m in Sources */,
-				4C9E7E9C1AAF7905500CBEC0716FBC4A /* JSONHTTPClient.m in Sources */,
-				C066BD05C135A9A641B712D92E4AD146 /* JSONKeyMapper.m in Sources */,
-				767B42A0CBE714521951B3FCF0D1DA30 /* JSONModel+networking.m in Sources */,
-				B7E4A427F219BBE56BB6B23B039522FF /* JSONModel-dummy.m in Sources */,
-				DB8999CAE436BCEEBB613E466F313DB4 /* JSONModel.m in Sources */,
-				1CC0376DB89270D5041806053DEE22C1 /* JSONModelClassProperty.m in Sources */,
-				6D91206A99344A90F813C17D8FE3C8C2 /* JSONModelError.m in Sources */,
-				B0C2AED164C0F7722A5CC4995B57F199 /* JSONValueTransformer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54EA3BAE326CEFCE1E6D69DFDA090A0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,68 +259,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8F0DB6F2A0024659DD7D12A5A5E7EE0 /* Sources */ = {
+		EC2DC9FAEC1C631D98FBB827A2137A74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631F65483709A507C9987ED592D82E3B /* Pods-iOS Maps Test-dummy.m in Sources */,
+				DF70173DE4BDF6DA2E1FD187C32CE2B1 /* Pods-iOS Maps Test-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0EDA472983A3F050DC570F871A0C2D38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JSONModel;
-			target = E89EA0620E22EDB775A7C107518644DD /* JSONModel */;
-			targetProxy = 8406D12D27437E4CEF4969A17054A9E7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		07B04AAB57A9A6388BAB3AF376033A93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00EFF8E1B17838ACC3D58545116C1097 /* Pods-iOS Maps Test.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		2A85A7A8D737A42BC96C15E7C6215403 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEAA7573192A824B9706A08FD6E8BD8E /* Pods-iOS Maps Test.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -514,6 +305,27 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ED215BB7F8D689F989BC82E9315D26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EFF8E1B17838ACC3D58545116C1097 /* Pods-iOS Maps Test.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -559,30 +371,30 @@
 			};
 			name = Debug;
 		};
-		5FEAD7B5A5D1DDE572B6EF5C348F05D3 /* Debug */ = {
+		6BA6AEC57F424BCE7A7E6DB8D7027530 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5986AFF0B6FFCDA0E6C3E054C06A9FEB /* JSONModel.xcconfig */;
+			baseConfigurationReference = 89D9C494E8651E9A094D04113DC67A47 /* Pods-iOS Maps TestUITests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		6BA6AEC57F424BCE7A7E6DB8D7027530 /* Debug */ = {
+		8FE41BBC69943F427265988B41E87C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89D9C494E8651E9A094D04113DC67A47 /* Pods-iOS Maps TestUITests.debug.xcconfig */;
+			baseConfigurationReference = AEAA7573192A824B9706A08FD6E8BD8E /* Pods-iOS Maps Test.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -664,27 +476,6 @@
 			};
 			name = Release;
 		};
-		F231D90C13A4C71D75E17910F3D3182D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5986AFF0B6FFCDA0E6C3E054C06A9FEB /* JSONModel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -706,20 +497,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EBFCF7B69D105B5164B11357C0CF7A2 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+		B8F2A8EF8E26F9E610EDAE409F9BBFAF /* Build configuration list for PBXNativeTarget "Pods-iOS Maps Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FEAD7B5A5D1DDE572B6EF5C348F05D3 /* Debug */,
-				F231D90C13A4C71D75E17910F3D3182D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C0419EE00761BF63105783D7F629CC07 /* Build configuration list for PBXNativeTarget "Pods-iOS Maps Test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A85A7A8D737A42BC96C15E7C6215403 /* Debug */,
-				07B04AAB57A9A6388BAB3AF376033A93 /* Release */,
+				8FE41BBC69943F427265988B41E87C8E /* Debug */,
+				4ED215BB7F8D689F989BC82E9315D26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
