@@ -50,10 +50,12 @@
 }
 
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.locationsTableView.delegate = self;
     self.locationsTableView.dataSource = self;
+    self.locationsTableView.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, self.locationsTableView.bounds.size.width, 0.01f)];
 }
 
 #pragma mark tableview delegate methods
@@ -78,6 +80,8 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle
                                       reuseIdentifier:tableViewIdentifier];
     }
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+
     NSArray *locations = [self.locationsDictionary objectForKey:@"locations"];
     cell.textLabel.text = [[locations objectAtIndex:indexPath.row] objectForKey:@"name"];
     cell.textLabel.numberOfLines = 0;

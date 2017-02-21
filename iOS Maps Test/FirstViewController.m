@@ -25,7 +25,6 @@
     self.locationsDictionary = [[NSMutableDictionary alloc] init];
     self.locationsDictionary = [NSMutableDictionary dictionaryWithContentsOfFile:filePaths];
     
-    
     if([self.locationsDictionary count] == 0)
     {
         NSLog(@"no user added data. load defaults");
@@ -40,7 +39,6 @@
             location.longitude  = [[dict objectForKey:@"lng"] doubleValue];
             [self addPins:location  withTitle:[dict objectForKey:@"name"]];
         }
-        
     }
     
     else
@@ -55,16 +53,12 @@
         }
         
     }
-    
-    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self enableLocationServices];
-    
-    
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc]
                                                initWithTarget:self action:@selector(handleLongPress:)];
     longPress.minimumPressDuration = 2.0;
@@ -99,7 +93,6 @@
     MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
     [annotation setCoordinate:location];
     [annotation setTitle:title];
-    
     [self.mapView addAnnotation:annotation];
 }
 
@@ -143,6 +136,7 @@
     
     [self.navigationController pushViewController:detailVC animated:YES];
 }
+
 
 - (void)handleLongPress:(UIGestureRecognizer *)gestureRecognizer
 {
@@ -211,6 +205,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
