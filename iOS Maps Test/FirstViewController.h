@@ -15,6 +15,6 @@
 @property (nonatomic, strong) CLLocationManager *locationManager;
 @property (nonatomic, strong) CLLocation* currentLocation;
 @property(nonatomic, strong) NSMutableDictionary *locationsDictionary;
-
+-(BOOL)writeToJSON:(CLLocationCoordinate2D)location withTitle:(NSString *)title;
 @end
 

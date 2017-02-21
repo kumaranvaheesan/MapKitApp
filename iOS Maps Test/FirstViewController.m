@@ -183,7 +183,7 @@
     
     
 }
--(void)writeToJSON:(CLLocationCoordinate2D)location withTitle:(NSString *)title
+-(BOOL)writeToJSON:(CLLocationCoordinate2D)location withTitle:(NSString *)title
 {
     
     NSMutableArray *locations = [[self.locationsDictionary objectForKey:@"locations"] mutableCopy];
@@ -193,8 +193,6 @@
     [newLocation setObject:[NSNumber numberWithDouble: location.latitude] forKey:@"lat"];
     [newLocation setObject:[NSNumber numberWithDouble: location.longitude] forKey:@"lng"];
     [newLocation setObject:title forKey:@"name"];
-    
-    
     [locations addObject:newLocation];
     NSString *dateString = [NSDateFormatter localizedStringFromDate:[NSDate date]
                                                           dateStyle:NSDateFormatterShortStyle
@@ -204,14 +202,12 @@
     NSMutableDictionary *jsondictionary  = [[NSMutableDictionary alloc] init];
     [jsondictionary setObject:locations forKey:@"locations"];
     [jsondictionary setObject:dateString forKey:@"updated"];
-    
-    
-    
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *filePaths = [documentsDirectory stringByAppendingPathComponent:@"locationArray.plist"];
     
-    [jsondictionary writeToFile:filePaths atomically:YES];
+    BOOL success =  [jsondictionary writeToFile:filePaths atomically:YES];
+    return success;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -11,6 +11,8 @@
 #import "DetailViewController.h"
 @interface SecondViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property(nonatomic, strong) NSMutableDictionary *locationsDictionary;
+@property(nonatomic, strong) CLLocation *currentLocation;
+
 @end
 
 @implementation SecondViewController
