@@ -7,7 +7,10 @@
 3.Notes can be added to locations by clicking the Pin in mapview or clicking row in list view and clicking save in detail view.
 
 4.All user inputs are persisted in the application.
-/n
+
+
+<img src="https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4749.jpg" width="100">
+
 ![Alt text](https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4749.jpg "Optional title")
 
 ![Alt text](https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4751.jpg "Optional title")
