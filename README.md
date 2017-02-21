@@ -9,11 +9,11 @@
 4.All user inputs are persisted in the application.
 
 
-<img src="https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4749.jpg" width="100">
+<img src="https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4749.jpg" width="300">
 
-![Alt text](https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4749.jpg "Optional title")
 
-![Alt text](https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4751.jpg "Optional title")
+<img src="https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4751.jpg" width="300">
 
-![Alt text](https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4752.jpg "Optional title")
+
+<img src="https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4752.jpg" width="300">
 
