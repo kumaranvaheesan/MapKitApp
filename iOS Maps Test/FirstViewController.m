@@ -181,14 +181,11 @@
     
     [self presentViewController:alert animated:YES completion:nil];
     
-    
 }
 -(BOOL)writeToJSON:(CLLocationCoordinate2D)location withTitle:(NSString *)title
 {
     
     NSMutableArray *locations = [[self.locationsDictionary objectForKey:@"locations"] mutableCopy];
-    
-    
     NSMutableDictionary* newLocation = [[NSMutableDictionary alloc] init];
     [newLocation setObject:[NSNumber numberWithDouble: location.latitude] forKey:@"lat"];
     [newLocation setObject:[NSNumber numberWithDouble: location.longitude] forKey:@"lng"];

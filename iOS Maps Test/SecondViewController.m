@@ -98,8 +98,6 @@
     detailVC.Lat = [NSString stringWithFormat:@"%@",[[locations objectAtIndex:indexPath.row] objectForKey:@"lat"]];
     detailVC.Lng = [NSString stringWithFormat:@"%@",[[locations objectAtIndex:indexPath.row] objectForKey:@"lng"]];
     detailVC.notes = [[locations objectAtIndex:indexPath.row] objectForKey:@"notes"];
-    
-    
     [self.navigationController pushViewController:detailVC animated:YES];
     
 }

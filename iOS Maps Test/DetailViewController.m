@@ -37,9 +37,6 @@
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *filePaths = [documentsDirectory stringByAppendingPathComponent:@"locationArray.plist"];
     NSMutableArray *locations = [ self.locationsDictionary objectForKey:@"locations"];
-
-   
-    
     for (NSMutableDictionary *dict in locations) {
         if([[dict objectForKey:@"name"] isEqualToString:_selectedLocationName] ==  true)
         {
@@ -56,14 +53,8 @@
     [jsondictionary setObject:locations forKey:@"locations"];
     [jsondictionary setObject:dateString forKey:@"updated"];
     
-    
-
-    
-    BOOL success = [jsondictionary writeToFile:filePaths atomically:YES];
-    
-    
-    NSDictionary *array = [NSDictionary dictionaryWithContentsOfFile:filePaths];
-    NSLog(@"array detail %d - %@",success,array);
+    [jsondictionary writeToFile:filePaths atomically:YES];
+   
 }
 
 

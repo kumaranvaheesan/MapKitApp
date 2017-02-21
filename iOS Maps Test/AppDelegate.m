@@ -19,7 +19,6 @@
     // Override point for customization after application launch.
     
     self.window.backgroundColor = [UIColor whiteColor];
-   
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     UIViewController *vc =[storyboard instantiateInitialViewController];
     UINavigationController *navControl = [[UINavigationController alloc] initWithRootViewController: vc];
