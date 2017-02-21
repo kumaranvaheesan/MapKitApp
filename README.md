@@ -4,3 +4,4 @@
 2.New Location can be added in Mapview by using "Long press" gesture and entering name of the location
 3.Notes can be added to locations by clicking the Pin in mapview or clicking row in list view and clicking save in detail view.
 4.All user inputs are persisted in the application.
+![Alt text](https://github.com/kumaranvaheesan/MapKitApp/blob/master/screenshots/IMG_4749.jpg "Optional title")
